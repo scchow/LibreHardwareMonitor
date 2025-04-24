@@ -389,10 +389,11 @@ internal class LpcIO
             case 0xD5:
                 switch (revision)
                 {
-                    case 0x92:                                
+                    case 0x92:
                         switch (motherboard.Model)
                         {
                             case Model.B850_GAMING_PLUS_WIFI:
+                            case Model.B850M_MORTAR_WIFI:
                             case Model.B850P_PRO_WIFI:
                             case Model.B850_TOMAHAWK_MAX_WIFI:
                             case Model.X870_GAMING_PLUS_WIFI:
